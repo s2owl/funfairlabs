@@ -1,0 +1,83 @@
+{
+  "id": "f9c1ced7-beef-4a61-80a8-2d8549686c66",
+  "version": "2.0",
+  "name": "lab-1",
+  "url": "https://funfairlabs.tabclr.io",
+  "tests": [{
+    "id": "681fabc5-85cd-4f59-9c67-0a2472f7898c",
+    "name": "swfc",
+    "commands": [{
+      "id": "fc407272-1958-4744-838c-edaa68d5f60f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.swfc.co.uk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c1729227-9adc-4c4b-806c-29422064ca32",
+    "name": "hsbc",
+    "commands": [{
+      "id": "0461e8ec-28b2-4650-bf75-40cadaace21d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hsbc.co.uk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "da1796f4-14ca-4eff-8548-70b2b4ab3690",
+    "name": "bbc",
+    "commands": [{
+      "id": "7c3818f9-87fc-41eb-91ac-b2a06bf0d245",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.bbc.co.uk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7471877b-2e64-4414-bcef-c86b6e2c0815",
+    "name": "cisco",
+    "commands": [{
+      "id": "9175164b-7743-4520-a2e9-665fc0cd08a5",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.cisco.com",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "81de7f57-8d69-4f55-ab5d-ad42dc6c3021",
+    "name": "monzo",
+    "commands": [{
+      "id": "8a9751c7-b8a8-404d-8c64-164039dfba1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.monzo.com",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aa7c0978-fa39-4553-8dec-236a8e16173a",
+    "name": "nintendo",
+    "commands": [{
+      "id": "9ac5692e-d7c1-45a6-83e9-c687ad616fbb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nintendo.com",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d198f5ef-c86b-48ab-8bb9-95cebc224a94",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["681fabc5-85cd-4f59-9c67-0a2472f7898c"]
+  }],
+  "urls": ["https://funfairlabs.tabclr.io/"],
+  "plugins": []
+}
