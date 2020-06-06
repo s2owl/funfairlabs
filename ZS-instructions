@@ -1,0 +1,10 @@
+1-open your proxy settings in your browser
+2-change your proxy to be gateway.zscloud.net on port 80
+  bypass from proxy localhost, *.okta.com, *.oktacdn.com (in IE itis this format *.okta.com;*.oktacdn.com;locahost)
+3-in your broser go to http://www.bbc.co.uk
+4-you should be redirected to a logon prompt where you can login, use the login details you've been given to the lab
+5-in your browser go to https://connectivity.office.com, put your location in and begin the test *you may have to install .net to complete
+6-if you had to install .net you may have to repeat the test
+7-on the output change the output to "Details and Solutions"
+8-expand the Network path section (section 6)
+9-print the page to PDF and email
