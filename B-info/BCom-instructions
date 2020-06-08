@@ -1,0 +1,14 @@
+1  -open your proxy settings in your browser
+2  -change your proxy to be proxy.threatpulse.com on port 8080
+    bypass from proxy localhost, *.okta.com, *.oktacdn.com (in IE it is this format *.okta.com;*.oktacdn.com;locahost)
+3  -in your browser go to http://www.bbc.co.uk
+4  -you should be redirected to a logon prompt where you can login, use the login details you've been given to the lab
+
+** The next steps are specifically to evaluate Office **
+5  -in EDGE (not chrome unfortunately) go to https://connectivity.office.com, put your location in and begin the test *you may have to install .net core runtime 3.1.4 to complete
+6  -if you had to install .net you may have to repeat the test
+7  -pick your location
+8  -where asked for the "onmicrosoft.com" domain to test against put in your employer name and start the test
+9  -on the output change the output to "Details and Solutions"
+10 -expand the Network path section (section 6)
+11 -print the page to PDF and email
