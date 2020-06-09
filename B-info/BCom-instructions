@@ -1,3 +1,22 @@
+Add the SSL Certs to your machine:
+
+Install the self signed cert
+
+Download the repo.
+Doubleclick on the CertEmulationCA.crt and select open if you get a Security Warning.
+Install Certificate...
+Select Local Machine
+Select Next (if you get a Win 10 confirmation promot say yes)
+Select the 'Place all certificates in the following store', click on Browse...
+Select Trusted Root Certification Authorities and click OK and then Next
+Click Finish
+
+If the funfair SSL interception certificate is available:
+Repeat as above for the new CA and SSL cert
+
+If you're using Mozilla then you will probably know how to do this :)
+
+Change your Browser Proxy Settings:
 1  -open your proxy settings in your browser
 2  -change your proxy to be proxy.threatpulse.com on port 8080
     bypass from proxy localhost, *.okta.com, *.oktacdn.com (in IE it is this format *.okta.com;*.oktacdn.com;locahost)
