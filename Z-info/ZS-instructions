@@ -1,8 +1,29 @@
+Add the SSL Certs to your machine:
+
+Install the self signed cert
+
+Download the repo.
+Doubleclick on the ZscalerRootCerts.zip, expand this and select open if you get a Security Warning.
+Install Certificate...
+Select Local Machine
+Select Next (if you get a Win 10 confirmation promot say yes)
+Select the 'Place all certificates in the following store', click on Browse...
+Select Trusted Root Certification Authorities and click OK and then Next
+Click Finish
+
+If the funfair SSL interception certificate is available:
+Repeat as above for the new CA and SSL cert
+
+If you're using Mozilla then you will probably know how to do this :)
+
+Change your Browser Proxy Settings:
 1  -open your proxy settings in your browser
 2  -change your proxy to be gateway.zscloud.net on port 80
     bypass from proxy localhost, *.okta.com, *.oktacdn.com (in IE itis this format *.okta.com;*.oktacdn.com;locahost)
 3  -in your broser go to http://www.bbc.co.uk
 4  -you should be redirected to a logon prompt where you can login, use the login details you've been given to the lab
+
+** The next steps are specifically to evaluate Office **
 5  -in EDGE (not chrome unfortunately) go to https://connectivity.office.com, put your location in and begin the test *you may have to install .net core runtime 3.1.4 to complete
 6  -if you had to install .net you may have to repeat the test
 7  -pick your location
